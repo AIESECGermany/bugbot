@@ -21,9 +21,12 @@
 			});
 		}
 
+
 		bugbot.report(req.body);
 		
-		return res.json({
+		return res
+		.header('Access-Control-Allow-Origin', '*')
+		.json({
 			status: 200,
 			message: "OK"
 		});
