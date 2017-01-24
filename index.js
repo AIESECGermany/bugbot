@@ -40,9 +40,9 @@
 
 	app.post('/report', report);
 
-	app.listen(3000, function () {
+	app.listen(config.port, function () {
 		bugbot = new BugBot(config);
-		console.log('BugBot listening on port 3000!');
+		console.log(`BugBot listening on port ${config.port}!`);
 	});
 
 })();
