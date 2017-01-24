@@ -13,7 +13,8 @@
 
 		if(!req.body
 			|| !req.body.person
-			|| !req.body.comment) {
+			|| !req.body.comment
+			|| !req.body.server) {
 			return res.status(400)
 			.json({
 				status: 400,
