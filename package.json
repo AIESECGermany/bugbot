@@ -1,6 +1,6 @@
 {
   "name": "bugbot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "bugbot addds a slack integration for a webform, so bugs can be reported to the slack directly",
   "main": "index.js",
   "scripts": {
